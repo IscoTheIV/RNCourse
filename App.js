@@ -40,6 +40,7 @@ export default function App() {
       <View style={styles.goalsContainer}>
         <FlatList
           data={courseGoals}
+          //nothing
           keyExtractor={(item, index) => {
             return item.id;
           }}
